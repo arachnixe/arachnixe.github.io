@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="{{ 'styles/base.css' | relative_url }}">
+		<link rel="stylesheet" href="{{ 'styles/light.css' | relative_url }}">
+		<link rel="stylesheet" href="{{ 'styles/dark.css' | relative_url }}">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="{{ page.title }}">
+		<meta property="og:description" content="{{ page.description }}">
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="{{ page.url | absolute_url }}">
+		<meta property="og:image" content="{{ 'images/arachnixe.jpg' | absolute_url }}">
+		<meta property="article:published_time" content="{{ page.date }}">
+	</head>
+	<body>
+		{{ content }}
+	</body>
+</html>
