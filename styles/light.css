@@ -1,4 +1,7 @@
 :root {
 	--color: #111;
-	--background-color: #EEE
+	--background-color: #EEE;
+	--background-accent: #DDD;
+	--line-color: #666;
+	--accent: #9773cd;
 }

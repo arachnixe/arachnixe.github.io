@@ -2,5 +2,8 @@
 	:root {
 		--color: #EEE;
 		--background-color: #111;
+		--background-accent: #222;
+		--line-color: #999;
+		--accent: #441e7e;
 	}
 }
