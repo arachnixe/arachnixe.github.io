@@ -3,10 +3,11 @@ layout: thread
 title: Follower
 description: She crossed the room leaving a smudge across my vision...
 date: 2021-08-09
+twid: 1424943289418096640
+tags:
+  - corruption
+  - identity loss
 ---
-# Follower
-<a href="https://twitter.com/arachnixe/status/1424943289418096640">Original Thread</a>
-
 <article class="thread">
 
 <section class="tweet">
