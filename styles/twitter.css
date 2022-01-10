@@ -19,6 +19,6 @@ hr.tweet_sep {
 	width: 3em;
 	position: absolute;
 	border: 0px;
-	border-top: 2px dashed var(--line-color);
+	border-top: 2px dashed var(--accent);
 	margin: -1em 0em 0em 0em;
 }
