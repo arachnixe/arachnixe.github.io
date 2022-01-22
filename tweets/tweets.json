@@ -388,7 +388,7 @@
   {
     "id": "1433225203149070343",
     "published": "Thu Sep 02 00:28:11 +0000 2021",
-    "tags": ["merging of selves", "body horror", "becoming", "first person", "second person"],
+    "tags": ["merging selves", "body horror", "becoming", "first person", "second person"],
     "links": [],
     "text": "A touch that melts. Not with heat or pain. Just a gentle tug on your shape with my caress, and you leave a thick residue on my fingertips. Then bit by bit you slump, unable to hold yourself together, and you crash into me, covering me, soaking in, becoming one being together."
   },
@@ -5249,19 +5249,10 @@
   },
   {
     "id": "1468348926633730048",
-    "title": "",
+    "title": "Virtual Assistant",
     "published": "Tue Dec 07 22:37:45 +0000 2021",
-    "tags": [],
-    "links": [
-      {
-        "name": "previous",
-        "id": null
-      },
-      {
-        "name": "next",
-        "id": null
-      }
-    ],
+    "tags": ["identity loss", "becoming", "merging selves", "hiveminds"],
+    "links": [],
     "tweets": [
       {
         "id": "1468348926633730048",
