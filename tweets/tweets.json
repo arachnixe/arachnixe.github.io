@@ -250,7 +250,8 @@
     "tags": ["priestesses", "gods", "the song", "corruption", "becoming", "first person"],
     "links": [
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -1078,10 +1079,12 @@
     "tags": ["becoming", "dream", "corruption", "second person"],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -1130,7 +1133,8 @@
     "tags": ["witches", "dolls", "abuse", "third person"],
     "links": [
       {
-        "next": "1437849133478465543"
+        "name": "next",
+        "id": "1437849133478465543"
       }
     ],
     "tweets": [
@@ -1273,7 +1277,8 @@
     "tags": ["reality/unreality", "mirrors", "dolls", "vessels", "witches", "third person"],
     "links": [
       {
-        "prev": "1437091424810508288"
+        "name": "previous",
+        "id": "1437091424810508288"
       }
     ],
     "tweets": [
@@ -1950,7 +1955,8 @@
     "tags": ["abandonment", "dolls", "witches", "dolly", "third person"],
     "links": [
       {
-        "next": "1463939308071567361"
+        "name": "next",
+        "id": "1463939308071567361"
       }
     ],
     "tweets": [
@@ -2081,10 +2087,12 @@
     "tags": ["villain", "corruption", "enthrallment", "mind control", "first person"],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -2229,7 +2237,8 @@
     "tags": ["apostate house", "dolls", "witches", "mirror door", "feral dolls", "third person"],
     "links": [
       {
-        "next": "1447718181439746051"
+        "name": "next",
+        "id": "1447718181439746051"
       }
     ],
     "tweets": [
@@ -2282,7 +2291,8 @@
     "tags": ["apostate house", "dolls", "witches", "first person", "second person"],
     "links": [
       {
-        "prev": "1447591283929882632"
+        "name": "previous",
+        "id": "1447591283929882632"
       }
     ],
     "tweets": [
@@ -3048,10 +3058,12 @@
     "tags": ["witches", "dolls", "missy", "dolly", "third person"],
     "links": [
       {
-        "prev": "1463939308071567361"
+        "name": "previous",
+        "id": "1463939308071567361"
       },
       {
-        "next": "1479299091632959490"
+        "name": "next",
+        "id": "1479299091632959490"
       }
     ],
     "tweets": [
@@ -3335,7 +3347,8 @@
     "tags": ["apostate house", "missy", "dolly", "witches", "dolls", "first person"],
     "links": [
       {
-        "prev": "1457465208922857479"
+        "name": "previous",
+        "id": "1457465208922857479"
       }
     ],
     "tweets": [
@@ -3383,10 +3396,12 @@
     "tags": ["apostate house", "dolls", "witches", "missy", "dolly", "third person"],
     "links": [
       {
-        "prev": "1479959544243507201"
+        "name": "previous",
+        "id": "1479959544243507201"
       },
       {
-        "next": "1457141293046538246"
+        "name": "next",
+        "id": "1457141293046538246"
       }
     ],
     "tweets": [
@@ -3655,10 +3670,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -3751,10 +3768,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -3782,10 +3801,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -3872,10 +3893,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -3923,10 +3946,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -3959,10 +3984,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4020,10 +4047,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4120,10 +4149,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4218,10 +4249,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4264,10 +4297,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4335,10 +4370,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4391,10 +4428,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4447,10 +4486,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4498,10 +4539,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4524,10 +4567,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4589,10 +4634,12 @@
     "tags": [],
     "links": [
       {
-        "prev": "1444688850035560456"
+        "name": "previous",
+        "id": "1444688850035560456"
       },
       {
-        "next": "1455953198565494788"
+        "name": "next",
+        "id": "1455953198565494788"
       }
     ],
     "tweets": [
@@ -4660,10 +4707,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4745,10 +4794,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4786,10 +4837,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4877,10 +4930,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4938,10 +4993,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -4969,10 +5026,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5020,10 +5079,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5088,10 +5149,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5191,10 +5254,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5434,10 +5499,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5492,10 +5559,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5535,10 +5604,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5581,10 +5652,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5743,10 +5816,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5774,10 +5849,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5835,10 +5912,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5906,10 +5985,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -5937,10 +6018,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6078,10 +6161,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6128,10 +6213,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6154,10 +6241,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6217,10 +6306,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6318,10 +6409,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6378,10 +6471,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6421,10 +6516,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6462,10 +6559,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6548,10 +6647,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6589,10 +6690,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6655,10 +6758,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6706,10 +6811,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6782,10 +6889,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -6863,10 +6972,12 @@
     "tags": [],
     "links": [
       {
-        "prev": "1455953198565494788"
+        "name": "previous",
+        "id": "1455953198565494788"
       },
       {
-        "next": "1479959544243507201"
+        "name": "next",
+        "id": "1479959544243507201"
       }
     ],
     "tweets": [
@@ -6959,10 +7070,12 @@
     "tags": [],
     "links": [
       {
-        "prev": null
+        "name": "previous",
+        "id": null
       },
       {
-        "next": null
+        "name": "next",
+        "id": null
       }
     ],
     "tweets": [
@@ -7020,10 +7133,12 @@
     "tags": [],
     "links": [
       {
-        "prev": "1479299091632959490"
+        "name": "previous",
+        "id": "1479299091632959490"
       },
       {
-        "next": "1457465208922857479"
+        "name": "next",
+        "id": "1457465208922857479"
       }
     ],
     "tweets": [

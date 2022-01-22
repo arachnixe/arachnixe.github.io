@@ -7,21 +7,31 @@
 		<link rel="stylesheet" href="{{ 'styles/dark.css' | relative_url }}">
 		<link rel="stylesheet" href="{{ 'styles/twitter.css' | relative_url }}">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta property="og:title" content="{{ page.title }}">
-		<meta property="og:description" content="{{ page.description }}">
+		<meta charset="UTF-8">
+		<meta property="og:title" content="{{ page.title | escape }}">
+		<meta property="og:description" content="{{ page.description | escape }}">
 		<meta property="og:type" content="article">
 		<meta property="og:url" content="{{ page.url | absolute_url }}">
 		<meta property="og:image" content="{{ 'images/arachnixe-icon.jpg' | absolute_url }}">
 		<meta property="article:published_time" content="{{ page.date }}">
 	</head>
 	<body>
-		<h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
-		<a class="thread_src" href="https://twitter.com/arachnixe/status/{{twid}}">Original Thread</a>
-		<nav class="tags">Tags:
+		<h1 id="{{ page.title | slugify }}">{{ page.title | escape }}</h1>
+		<a class="thread_src" href="https://twitter.com/arachnixe/status/{{ page.twid }}">Original Thread</a>
+		{% if page.tags.size > 0 %}
+		<ul class="tags">Tags:
 		{% for tag in page.tags %}
-		<a class="tag" href="{{ 'index' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>
+		<li class="tag">{{ tag }}</li>
+		{% endfor %}
+		</ul>
+		{% endif %}
+		{{ content }}
+		{% if page.links.size > 0 %}
+		<nav class="related">Related:
+		{% for link in page.links %}
+		<a href="{{ page.dir | append: link.id | relative_url }}">{{ link.name }}</a>
 		{% endfor %}
 		</nav>
-		{{ content }}
+		{% endif %}
 	</body>
 </html>

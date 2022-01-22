@@ -29,17 +29,23 @@ def is_publishable(thread):
 
 def publish_thread(thread):
     id = thread['id']
+    description = generate_description(thread)
     with open(f'tweets/{id}.md', 'w') as f:
         emit = partial(print, file=f)
         emit('---')
         emit('layout: thread')
         emit(f'title: {thread["title"]}')
-        emit(f'description: {thread["tweets"][0]["full_text"][:77]}...')
+        emit(f'description: {description}')
         emit(f'date: {thread["published"]}')
         emit(f'twid: {id}')
         emit('tags:')
         for tag in thread['tags']:
             emit(f'  - {tag}')
+        emit('links:')
+        for link in thread['links']:
+            if link["id"]:
+                emit(f'  - name: "{link["name"]}"')
+                emit(f'    id: "{link["id"]}"')
         emit('---')
         emit('<article class="thread">')
         for tweet in thread["tweets"][:-1]:
@@ -63,8 +69,13 @@ def publish_thread(thread):
         emit('</article>')
 
 
+def generate_description(thread):
+    text = thread["tweets"][0]["full_text"]
+    return paragraphs(text)[0]
+
+
 def paragraphs(text):
-    return filter(bool, text.split('\n'))
+    return list(filter(bool, text.split('\n')))
 
 
 if __name__ == '__main__':
