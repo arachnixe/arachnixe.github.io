@@ -18,3 +18,16 @@ h2,
 h3 {
 	line-height: 1.2;
 }
+
+ul.tags {
+	list-style: none;
+	padding: 0px;
+}
+
+ul.tags li.tag {
+	display: inline;
+}
+
+ul.tags li.tag:not(:last-child)::after {
+	content: ", "
+}
