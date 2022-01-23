@@ -2,6 +2,7 @@
 
 import json
 import re
+from datetime import datetime, timezone
 from functools import partial
 
 
@@ -27,16 +28,24 @@ def is_publishable(thread):
     return bool(thread.get('title'))
 
 
+def parse_date(datestr):
+    return datetime.strptime(
+        datestr,
+        '%a %b %d %H:%M:%S +0000 %Y'
+    ).replace(tzinfo=timezone.utc)
+
+
 def publish_thread(thread):
     id = thread['id']
     description = generate_description(thread)
+    date = parse_date(thread['published']).isoformat()
     with open(f'tweets/{id}.md', 'w') as f:
         emit = partial(print, file=f)
         emit('---')
         emit('layout: thread')
         emit(f'title: {thread["title"]}')
         emit(f'description: {description}')
-        emit(f'date: {thread["published"]}')
+        emit(f'date: {date}')
         emit(f'twid: {id}')
         emit('tags:')
         for tag in thread['tags']:
